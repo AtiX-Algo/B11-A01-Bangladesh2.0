@@ -8,304 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <style>
-        .Banner {
-            background-color: #d5f6e3;
-            padding: 20px 80px;
-            text-align: left;
-            /* margin: 20px; */
-            border-radius: 10px;
-            background-image: url('assets/hero.png');
-            background-size: 474.03px 400px;
-            background-repeat: no-repeat;
-            background-position: right;
-            margin-bottom: 10px;
-        }
-
-        #BD-title {
-            font-size: 24;
-            margin-bottom: 5px;
-            color: #6A7972;
-            font-style: bold;
-
-        }
-
-        #f-para {
-            font-size: 56px;
-            margin-bottom: 10px;
-            color: black;
-            font-weight: bold;
-            width: 50%;
-            /* display: inline-block; */
-            /* vertical-align: top; */
-        }
-
-        .f-button {
-            background-color: #006A50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            left: 10px;
-
-        }
-
-        .sign-button {
-            background-color: white;
-            color: #006A50;
-            padding: 10px 20px;
-            border: 1px solid #006A50;
-            border-radius: 5px;
-            cursor: pointer;
-            /* position: absolute; */
-            /* right: 20px; */
-            
-            margin-left: auto;
-        }
-        .header {
-            display: flex;
-            align-items: center;
-        }
-        #body {
-            font-family: "Fira Sans", serif;
-            font-weight: 100;
-            font-style: normal;
-            margin: 0;
-            padding: 0px 120px;
-            background-color: #F5F5F5;
-            
-        }
-        .Pillars {
-            display: flex;
-            
-        }
-        .Pillar_card {
-            background-color: white;
-            padding: 20px;
-            margin: 10px;
-            border-radius: 10px;
-            width: 20%;
-        }
-        .sky_card {
-            background-color: #5490F5;
-            background-color: rgba;
-            opacity: 80%; 
-        }
-        .green_card {
-            background-color: #09A15C;
-            /* opacity: 50%; */
-        }
-        .orange_card {
-            background-color: #FFC239;
-            /* opacity: 50%; */
-        }
-        .card_button {
-            background-color: #5490F5;
-            
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .Quote_Section {
-            background-color: white;
-            padding: 20px;
-            margin: 10px;
-            border-radius: 10px;
-            width: 100%;
-            background-image: url('assets/quote-bg.png');
-            background-size: 474.03px 400px;
-            background-repeat: no-repeat;
-            background-position: left;
-        }
-
-
-
-
-
-
-
-        .table {
-            width: 80%;
-            margin: 32px auto;
-            background-color: white;
-            padding: 32px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        /* h1 {
-            text-align: center;
-            font-size: 28.8px;
-            color: #333;
-        } */
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 24px;
-        }
-
-        thead th {
-            background-color: #d4f4d7;
-            padding: 16px;
-            text-align: left;
-            font-size: 17.6px;
-        }
-
-        tbody tr {
-            border-bottom: 1px solid #ccc;
-        }
-
-        tbody td {
-            padding: 16px;
-            font-size: 16px;
-            vertical-align: middle;
-        }
-
-        select {
-            width: 100%;
-            padding: 8px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            background-color: #fff;
-        }
-
-        /* News Section */
-        .news-container {
-            width: 80%;
-            margin: 32px auto;
-            background-color: white;
-            padding: 32px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        h1 {
-            text-align: center;
-            font-size: 32px;
-            color: #333;
-        }
-
-        .intro {
-            text-align: center;
-            font-size: 17.6px;
-            color: #555;
-            margin-top: 8px;
-            line-height: 25.6px;
-        }
-
-        .news-card {
-            display: flex;
-            gap: 24px;
-            margin-top: 32px;
-            background-color: #f5f5f5;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .news-image img {
-            width: 45%;
-            height: auto;
-            display: block;
-        }
-
-        .news-content {
-            flex: 1;
-            padding: 24px;
-        }
-
-        .news-content h2 {
-            font-size: 24px;
-            color: #333;
-            margin-bottom: 8px;
-        }
-
-        .source {
-            display: flex;
-            align-items: center;
-            font-size: 14.4px;
-            color: #777;
-            margin-bottom: 8px;
-        }
-
-        .source img {
-            margin-right: 8px;
-        }
-
-        .date-time {
-            font-size: 14.4px;
-            color: #555;
-            margin-bottom: 16px;
-        }
-
-        .description {
-            font-size: 16px;
-            color: #444;
-            line-height: 25.6px;
-            margin-bottom: 16px;
-        }
-
-        .read-more {
-            display: inline-block;
-            background-color: #28a745;
-            color: white;
-            text-decoration: none;
-            padding: 9.6px 19.2px;
-            font-size: 16px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-
-
-
-
-
-
-
-        .newsletter button {
-            padding: 10px 20px;
-            background-color: #28a745;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .social-icons {
-            margin-top: 10px;
-            margin: 0 10px;
-            color: #333;
-            text-decoration: none;
-        }
-
-
-        .donate {
-            text-align: center;
-        }
-
-        .donate-cards {
-            text-align: center;
-            display: flex;
-            gap: 10px;
-            
-            margin: 20px 0;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-            
-        }
-        
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="body">
@@ -350,21 +53,21 @@
 
     <h1>The Vision of Future</h1>
     <p>Our vision is to make Bangladesh a better place for the next generation. We are working on the latest technology to make our country a better place.</p>
-    <section class="Pillars">
+    <section class="Pillars_vision">
         
-        <div class="Pillar_card sky_card">
+        <div class="Pillar_cardss sky_card">
             <img src="assets/card-icon.png">
             <h2>Digital Transformation</h2>
             <p>Creating a nationwide digital ecosystem to enhance connectivity and access to services for all citizens.</p>
             <div><button class="card_button" style="background-color: #5490F5;">Learn More</button></div>
         </div>
-        <div class="Pillar_card green_card">
+        <div class="Pillar_cardss green_card">
             <img src="assets/card-icon.png">
             <h2>Green Energy</h2>
             <p>Investments in solar and wind energy to ensure a sustainable and eco-friendly future.</p>
             <button class="card_button" style="background-color:#09A15C">Learn More</button>
         </div>
-        <div class="Pillar_card orange_card">
+        <div class="Pillar_cardss orange_card">
             <img src="assets/card-icon.png">
             <h2>Modern Infrastructure</h2>
             <p>Building state-of-the-art infrastructure to support economic growth and global competitiveness.</p>
@@ -373,145 +76,142 @@
         
 
     </section>
-    <section class="Quote_Section">
-        <p>Innovation is crucial for the growth of Bangladesh. Our youth must be encouraged to think creatively and solve the challenges we face.</p>
-        <p>Dr. Muhammad Yunus</p>
+    <section class="Quote">
+        <p>We should reform the education system to create a generation of entrepreneurs. We need education, which helps students become creative people. Our young people must fulfil their creative potential.</p>
+        <p><strong> Dr. Muhammad Yunus</strong></p>
         <p>Chief Adviser of the People's Republic of Bangladesh</p>
     </section>
     <section class="table">
+        <h1 class="option-title">Your Opinion Matters</h1>
+            <div class="Opinion">
+                <table>
+                <thead>
+                    <tr>
+                    <th>Questions</th>
+                    <th>Select Your Opinion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                    <td>
+                        <select>
+                        <option value="agree">Yes, I Agree</option>
+                        <option value="neutral">Neutral</option>
+                        <option value="disagree">No, I Disagree</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                    <td>
+                        <select>
+                        <option value="agree">Yes, I Agree</option>
+                        <option value="neutral">Neutral</option>
+                        <option value="disagree">No, I Disagree</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                    <td>
+                        <select>
+                        <option value="agree">Yes, I Agree</option>
+                        <option value="neutral">Neutral</option>
+                        <option value="disagree">No, I Disagree</option>
+                        </select>
+                    </td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+            <h1>Recent News</h1>
+            <p class="intro">
+                Bangladesh 2.0 aims to redefine the nation's trajectory by embracing cutting-edge technology, promoting
+                inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation,
+                and robust infrastructure, the country is set to become a global model of development.
+            </p>
+            <section class="news-container">
+                
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="assets/satelite.png" alt="Satellite Image">
+                    </div>
+                    <div class="news-content">
+                        <h2>Bangladesh Launches New Satellite</h2>
+                        <p class="source">
+                            <img src="assets/al-jazeera.png" alt="Source Logo">
+                        </p>
+                        <p class="date-time">Date: 05/01/2025 &nbsp;&nbsp; Time: 10:25 PM</p>
+                        <p class="description">
+                            Not until the creation and maintenance of decent conditions of life for all people are recognized
+                            and accepted as a common obligation of all people and all countries—not until then shall we, with a
+                            certain degree of justification, be able to speak of humankind as civilized.
+                        </p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                </div>
+            </section>
         
-            <h1>Your Opinion Matters</h1>
-            <table>
-              <thead>
-                <tr>
-                  <th>Questions</th>
-                  <th>Select Your Opinion</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
-                  <td>
-                    <select>
-                      <option value="agree">Yes, I Agree</option>
-                      <option value="neutral">Neutral</option>
-                      <option value="disagree">No, I Disagree</option>
-                    </select>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
-                  <td>
-                    <select>
-                      <option value="agree">Yes, I Agree</option>
-                      <option value="neutral">Neutral</option>
-                      <option value="disagree">No, I Disagree</option>
-                    </select>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
-                  <td>
-                    <select>
-                      <option value="agree">Yes, I Agree</option>
-                      <option value="neutral">Neutral</option>
-                      <option value="disagree">No, I Disagree</option>
-                    </select>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          
-    </section>
-    <section class="news-container">
-        <h1>Recent News</h1>
-        <p class="intro">
-            Bangladesh 2.0 aims to redefine the nation's trajectory by embracing cutting-edge technology, promoting
-            inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation,
-            and robust infrastructure, the country is set to become a global model of development.
-        </p>
-        <div class="news-card news-image">
-
-            <img src="assets\satelite.png">
-
-            <div class="news-content">
-                <h2>Bangladesh Launches New Satellite</h2>
-                <p class="source">
-                    <img src="assets\al-jazeera.png">
-                    
-                </p>
-                <p class="date-time">Date: 05/01/2025 &nbsp;&nbsp; Time: 10:25 PM</p>
-                <p class="description">
-                    Not until the creation and maintenance of decent conditions of life for all people are recognized
-                    and accepted as a common obligation of all people and all countries—not until then shall we, with a
-                    certain degree of justification, be able to speak of humankind as civilized.
-                </p>
-                <button class="read-more">Read More</button>
-            </div>
-        </div>
-    </section>
-
-<!-- ____________________________________________________________________________________________________________________________________ -->
-
-    <section class="news-container">
-    
-        <div class="news-card news-content">
-            <div class="news-content">
-              <h2>Bangladesh Launches New Satellite</h2>
-              <p class="source">
-                <img src="assets\al-jazeera.png"> 
-              </p>
-              <p class="date-time">Date: 05/01/2025 &nbsp;&nbsp; Time: 10:25 PM</p>
-              <p class="description">
-                Not until the creation and maintenance of decent conditions of life for all people are recognized and accepted as a common obligation of all people and all countries—not until then shall we, with a certain degree of justification, be able to speak of humankind as civilized.
-              </p>
-              <a class="read-more">Read More</a>
-            </div>
-            <div class="news-image">
-              <img src="assets\satelite.png">
-            </div>
-          </div>
-        </div>
-    </section>
-<!-- ____________________________________________________________________________________________________________________________________ -->
-
-    <section class="news-container">
-        <h1>Recent News</h1>
-        <p class="intro">
-            Bangladesh 2.0 aims to redefine the nation's trajectory by embracing cutting-edge technology, promoting
-            inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation,
-            and robust infrastructure, the country is set to become a global model of development.
-        </p>
-        <div class="news-card news-image">
-
-            <img src="assets\satelite.png">
-
-            <div class="news-content">
-                <h2>Bangladesh Launches New Satellite</h2>
-                <p class="source">
-                    <img src="assets\al-jazeera.png">
-                    
-                </p>
-                <p class="date-time">Date: 05/01/2025 &nbsp;&nbsp; Time: 10:25 PM</p>
-                <p class="description">
-                    Not until the creation and maintenance of decent conditions of life for all people are recognized
-                    and accepted as a common obligation of all people and all countries—not until then shall we, with a
-                    certain degree of justification, be able to speak of humankind as civilized.
-                </p>
-                <button class="read-more">Read More</button>
-            </div>
-        </div>
-    </section>
-    <section class="donate">
-        <h2>Donate Today</h2>
-        <p>Support the vision of Bangladesh 2.0 with your contributions.</p>
-        <div class="donate-cards">
-            <div class="donate-card">100 Taka</div>
-            <div class="donate-card">200 Taka</div>
-            <div class="donate-card">500 Taka</div>
-            <div class="donate-card">1000 Taka</div>
-        </div>
-    </section>
+            <section class="news-container">
+                <div class="news-card">
+                    <div class="news-content">
+                        <h2>Bangladesh Launches New Satellite</h2>
+                        <p class="source">
+                            <img src="assets/al-jazeera.png" alt="Source Logo">
+                        </p>
+                        <p class="date-time">Date: 05/01/2025 &nbsp;&nbsp; Time: 10:25 PM</p>
+                        <p class="description">
+                            Not until the creation and maintenance of decent conditions of life for all people are recognized
+                            and accepted as a common obligation of all people and all countries—not until then shall we, with a
+                            certain degree of justification, be able to speak of humankind as civilized.
+                        </p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                    <div class="news-image">
+                        <img src="assets/satelite.png" alt="Satellite Image">
+                    </div>
+                </div>
+            </section>
+        
+            <section class="news-container ">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="assets/satelite.png" alt="Satellite Image">
+                    </div>
+                    <div class="news-content">
+                        <h2>Bangladesh Launches New Satellite</h2>
+                        <p class="source">
+                            <img src="assets/al-jazeera.png" alt="Source Logo">
+                        </p>
+                        <p class="date-time">Date: 05/01/2025 &nbsp;&nbsp; Time: 10:25 PM</p>
+                        <p class="description">
+                            Not until the creation and maintenance of decent conditions of life for all people are recognized
+                            and accepted as a common obligation of all people and all countries—not until then shall we, with a
+                            certain degree of justification, be able to speak of humankind as civilized.
+                        </p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="donate">
+                <h2>Donate Today</h2>
+                <p class="donate-p">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure.</p>
+                <div class="donate-cards">
+                    <div class="donate-card">100 Taka</div>
+                    <div class="donate-card">200 Taka</div>
+                    <div class="donate-card">500 Taka</div>
+                    <div class="donate-card">1000 Taka</div>
+                
+                </div>
+                <div class="donate-extra">
+                    <input class="donate-taka" type="number" placeholder="Other Amount (Taka)">
+                </div>
+                <div >
+                    <button class="donate-button">Done now</button>
+                </div>
+            </section>
 
     <section class="newsletter">
         <h2>Subscribe to Newsletter</h2>
@@ -524,8 +224,8 @@
     
     
     
-    <footer>
-        <p>&copy; 2025 Bangladesh 2.0. All rights reserved.</p>
+    <footer class="footer">
+        <h1>Bangladesh 2.0</h1>
         <div class="social-icons">
             <img src="assets\facebook.png">
             <img src="assets\instagram.png">
