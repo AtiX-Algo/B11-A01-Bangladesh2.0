@@ -73,7 +73,7 @@
 
 .Pillars {
     display: flex;
-    
+
 
 }
 
@@ -194,7 +194,8 @@ select {
     border-radius: 4px;
     background-color: #fff;
 }
-.Opinion{
+
+.Opinion {
     margin-bottom: 80px;
     background-color: white;
     padding: 10px;
@@ -205,7 +206,7 @@ select {
 .news-container {
     width: 80%;
     margin: 32px auto;
-    
+
     background-color: white;
     padding: 32px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -363,7 +364,6 @@ select {
 .newsletter input {
     padding: 10px;
     width: 300px;
-    margin-right: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
@@ -375,10 +375,9 @@ select {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-
+/* footer section */
 
 .footer {
     background-color: white;
@@ -386,5 +385,10 @@ select {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
-   
+
+}
+
+.footer-line {
+    background-color:rgba(244, 244, 244, 0.692);
+    width: 80%;
 }
